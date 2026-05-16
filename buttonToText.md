@@ -80,4 +80,4 @@ On Arduino IDE, press the "-->" button and then the check button.
 In Godot, press the ▶️ play button.
 Press the button on your KY 004 and see text output on Godot.
 
-Now for how the breadboard should look like: 
+Now for how the breadboard should look like: go to the "Images" folder
