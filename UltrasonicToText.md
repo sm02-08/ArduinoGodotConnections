@@ -147,3 +147,10 @@ In Godot, press the ▶️ play button.
 Press the button on your DHT11 and see text output on Godot.
 
 Now for how the breadboard should look like: go to the "Images" folder
+
+
+How the wires are set up: 
+- `VCC` wire goes to the `5V` hole.
+- `Trig` wire goes to any D2 to D10 hole.
+- `Echo` wire goes to the hole + 1 that Trig is in (e.g. Trig is in D5, Echo is in D6).
+- `GND` wire of course goes into the GND hole.
