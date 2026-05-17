@@ -2,8 +2,8 @@
 Functionality: Every 2 seconds, use a DHT11 to get a reading of the temperature outside. Then, get text output in Godot (can be changed to other output too)!
 
 *Required:* 
-Hardware: Breadboard, soldered arduino nano onto it, 3 male-to-female jumper wires, USB-C to USB-C (or USB-C to whatever connects to your laptop), DHT11 module (not just sensor). 
-Software: Godot (install with the .NET and make sure to have .NET installed like in and of itself), Arduino IDE
+- Hardware: Breadboard, soldered arduino nano onto it, 3 male-to-female jumper wires, USB-C to USB-C (or USB-C to whatever connects to your laptop), DHT11 module (not just sensor).
+- Software: Godot (install with the .NET and make sure to have .NET installed like in and of itself), Arduino IDE
 
 https://www.youtube.com/watch?v=nOKno82_gd0 for some more help 
 
@@ -112,4 +112,9 @@ On Arduino IDE, press the "-->" button and then the check button.
 In Godot, press the ▶️ play button.
 Press the button on your DHT11 and see text output on Godot.
 
-Now for how the breadboard should look like: go to the "Images" folder
+### Now for how the breadboard should look like: go to the "Images" folder
+
+And for a physical description: 
+- Data (the wire closest to the "S"): any D2 to D10 pin.
+- VCC (the middle wire): connect to 5V.
+- GND (the furthest from the "S"): the GND pin on the breadboard.
